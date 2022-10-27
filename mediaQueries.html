@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    
+    <style>
+        body{
+            font-family: poppins;
+        }
+        #header{
+            text-align: center;
+        }
+        #para{
+            text-align: center;
+        }
+        #button{
+            text-align: center;
+        }
+        #btn{
+            color: white;
+            text-decoration: none;
+            background-color: black;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            padding: 10px;
+        }
+        #heading{
+            text-align: center;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+        #IMAGE{
+            padding: 5px;
+        }
+        @media screen and (max-width: 480px) {
+            #container{
+                display: block;
+            }
+            #IMAGE{
+                width: 100%;
+                height: auto;
+            }
+
+        }
+       #thumbnail{ 
+                top:-15px; 
+                left:-100px; 
+                display:block; 
+                z-index:699; 
+               cursor: pointer; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease; 
+} 
+
+/*change the number below to scale to the appropriate size*/ 
+.thumbnail:hover { 
+transform: scale(2); 
+
+}
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>We help them live on in your heart & home forever</h2>
+    </div>
+    <div id="para">
+        <p>we understand that the time we have with our pets is short yet wonderful. We know we will lose them one day so, we cherish each day we have with them! thats why we celebrate & honour the impact they have on our lives through art. </p>
+    </div>
+
+    <div id="button"><button id="btn">Book A Session Now</button></div>
+    <div id="heading"><h2>Our Recent clicks</h2></div>
+    
+    <div id="container">
+        <img id="IMAGE" src="dog-1.jpg"class="thumbnail" width="180px" height="370px">
+        <img id="IMAGE" src="dog-2.jpg"class="thumbnail" width="180px" height="370px">
+        <img id="IMAGE" src="dog-3.jpg" class="thumbnail" width="180px" height="370px">
+        <img id="IMAGE" src="dog-4.jpg" class="thumbnail" width="180px" height="370px">
+        <img id="IMAGE" src="dog-5.jpg" class="thumbnail" width="180px" height="370px">
+    </div>
+</body>
+</html>
